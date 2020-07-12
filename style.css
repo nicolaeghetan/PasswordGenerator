@@ -1,0 +1,62 @@
+body {
+    background-color: ghostwhite;
+}
+#passGenerator {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10px; 
+    border-bottom: 3px;
+    border-color: blue; 
+    margin-bottom: 45px; 
+}
+h1 {
+    position: relative;
+    top: 25px;
+}
+.container {
+    position: relative;
+    align-items: center;
+    margin: auto;
+    width: 700px;
+    height: 300px;
+    background-color: antiquewhite;
+}
+#genPassword {
+    position: relative;
+    left: 25px;
+    top: 55px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#generatePassword{
+    position: relative;
+    align-items: left;
+    left: 25px;
+    top: 150px;
+    background-color: red;
+    color: white;
+    font-size: x-large;
+    border-radius: 25px;
+    height: 50px;
+    width: 300px;
+    bottom: 25px;
+}
+#copyToClipboard{
+    position: absolute;
+    background-color:#c0c7cf;
+    color: white;
+    font-size: x-large;
+    border-radius: 25px;
+    height: 50px;
+    width: 300px;
+    top: 198px;
+    left: 380px;
+}
+#resultPass {
+    position: absolute;
+    height: 50px;
+    left: 25px;
+    top: 110px;
+    width: 80%;
+    font-size: 25px;
+    
+}
